@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0; /* delimitar a margem dos elementos na pagina */
+    padding: 0; /* delimitar o espaçamento interno dos elememntos */
+}
+    /* definindo o display para o tema padrão do navegador */
+body > header {
+    background-color: #00d4b1;
+    color: #000000;
+    font-size: 20px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;    
+}
+header li a {
+    color: #000000;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+body {
+    background-color: azure;
+    color: #000000;
+}
+#home-title {
+    color: #000000;
+}
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+section {
+    padding: 25px 0;
+}
+section h2 {
+    margin: 25px;
+    font-size: 35px;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+.articles article img {
+    height: 400px;
+    width: 100%;
+}
+.articles article {
+    width: 50%;
+    margin: 15px;
+}
