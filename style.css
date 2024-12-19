@@ -5,7 +5,7 @@
 }
     /* definindo o display para o tema padrão do navegador */
 body > header {
-    background-color: #00d4b1;
+    background-color: rgba(0, 0, 0, 0.329);
     color: #000000;
     font-size: 20px;
 }
@@ -52,4 +52,65 @@ section h2 {
 .articles article {
     width: 50%;
     margin: 15px;
+}
+.articles article h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.articles article a {
+    background-color: #00d4b1;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: aliceblue;
+    font-size: 23px;
+}
+.articles article a,
+.articles article p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.container li a:hover{
+    text-decoration: underline;
+}
+#economia {
+    background-color: rgba(0, 4, 66, 0.329);
+}
+#books {
+    background-color: rgba(0, 4, 66, 0.329);
+}
+
+    /* definindo o display para o tema padrão do navegador */
+
+@media (prefers-color-scheme: dark) {
+    body > header {
+        background-color: rgba(0, 0, 0, 0.329);
+        }
+        body {
+        background-color:#1C1C1C;
+        color: #fff;
+        }
+        #home-title{
+            color: #d3ca50;
+        }
+        header li a {
+            color: #d3ca50;
+            align-items: center;
+            
+        }
+        .articles article a {
+            background-color:#d3ca50;
+            color: #1C1C1C;
+        }
+        #economia {
+            background-color: rgba(0, 0, 0, 0.329);
+        }
+        #books {
+            background-color: rgba(0, 0, 0, 0.329);
+        }
 }
